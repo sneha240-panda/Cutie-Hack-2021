@@ -1,0 +1,39 @@
+body {background-color: burlywood}
+
+
+.button {
+    height: 50px;
+    color:blueviolet;
+    font-family: 'Mohave', sans-serif;
+    text-decoration: none;
+    background-color: white;
+    border:1px solid #151515;
+    border-radius: 4px;
+}
+
+button {
+    height: 100px;
+    color:crimson;
+}
+.main-box{
+    margin:0 auto;
+    width: calc(40vw + 80px);
+    /* grid-template-columns: 20vw 20vw; */
+    column-gap: 80px;
+    grid-template-rows: 200px;
+}
+.box{
+    /* background-color: cadetblue; */
+    text-align:center;
+}
+.wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.fit{
+    height:auto;
+}
+.water{
+    grid-column: 1/3;
+    font-family: 'Mohave', sans-serif;
+}
